@@ -12,9 +12,9 @@ variable "prefix" {
 }
 
 
-variable "s3-bucket" {
-  description = "AWS Resources S3-Bucket."
-}
+# variable "s3-bucket" {
+#   description = "AWS Resources S3-Bucket."
+# }
 
 
 variable "region" {
