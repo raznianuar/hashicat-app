@@ -11,6 +11,12 @@ variable "prefix" {
   description = "This prefix will be included in the name of most resources."
 }
 
+
+variable "s3-bucket" {
+  description = "AWS Resources S3-Bucket."
+}
+
+
 variable "region" {
   description = "The region where the resources are created."
   default     = "us-east-1"
